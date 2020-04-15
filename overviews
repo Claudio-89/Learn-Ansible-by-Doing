@@ -1,0 +1,21 @@
+Installation and Configuration:"Ansible playbook overview: An Ansible playbook is an organized unit of scripts that defines work for a server configuration managed by the automation tool Ansible. Ansible is a configuration management tool that automates the configuration of multiple servers by the use of Ansible playbooks"
+
+Installation and Configuration:"Ad-Hoc Commands overview:An Ansible ad-hoc command uses the /usr/bin/ansible command-line tool to automate a single task on one or more managed nodes. Ad-hoc commands are quick and easy, but they are not reusable. Ad-hoc commands are great for tasks you repeat rarely. For example, if you want to power off all the machines in your lab for Christmas vacation, you could execute a quick one-liner in Ansible without writing a playbook"
+
+Installation and Configuration:"Ansible Inventory overview: The Ansible inventory file defines the hosts and groups of hosts upon which commands, modules, and tasks in a playbook operate. The file can be in one of many formats depending on your Ansible environment and plugins. ... If necessary, you can also create project-specific inventory files in alternate locations."
+
+Plays and Playbooks:"Ansible playbook overview: An Ansible playbook is an organized unit of scripts that defines work for a server configuration managed by the automation tool Ansible. Ansible is a configuration management tool that automates the configuration of multiple servers by the use of Ansible playbooks. ... Ansible plays are written in YAML."
+
+Plays and Playbooks:"Ansible Templates overview: A template in Ansible is a file which contains all your configuration parameters, but the dynamic values are given as variables. During the playbook execution, depending on the conditions like which cluster you are using, the variables will be replaced with the relevant values."
+
+Plays and Playbooks:"Ansible Facts overview: Simply put, Ansible facts are system properties that are collected by Ansible when it executes on a remote system. The facts contain useful details such as storage and network configuration about a target system."
+
+Plays and Playbooks:"Ansible j2 file extension overview: A . j2 file is a text document containing the source code of an Ansible template written in the Jinja2 language. As such, it can be opened and directly edited in any text editor."
+
+Plays and Playbooks:"Ansible Vault overview: Ansible Vault is a feature of ansible that allows you to keep sensitive data such as passwords or keys in encrypted files, rather than as plaintext in playbooks or roles. ... Alternately, you may specify the location of a password file or command Ansible to always prompt for the password in your ansible. cfg file."
+
+Plays and Playbooks:"Ansible Tags overview: Tags help Ansible tasks to be selected from a play or play-book. If you need to play(execute) only certain specific tasks you can specify the tags needed while executing the ansible-playbook command."
+
+Roles:"Ansible Roles overview: Roles are designed to be reusable. Organizing playbooks with roles allows you to reuse different modules and avoid code duplication. Repetitive configuration steps, carried out into separate files, can be used many times, simply by including the required role functionality in your playbooks when necessary."
+
+Roles:Log in to one of the nodes (the IP addresses are on the hands-on lab overview page):
